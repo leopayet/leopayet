@@ -1,0 +1,106 @@
+body {
+background-color: #FAF4D3;
+color: white;
+text-align: center;
+} 
+
+p{
+	color: white;
+
+	} 
+a{
+	text-decoration:none;
+	color:#ADEEE3;
+	font-weight: bold;
+	transition:0.1s;
+	font-size: 20px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
+	border-radius: 5px;
+	margin: 30px ;
+} 
+
+a:hover {
+color: white;
+} 
+
+ul{
+	list-style: none;
+	padding: 0;
+} 
+
+/* Custom design with class (99% of your design)*/
+.container{
+	width: 300px
+	margin: 40px;
+	border-radius: 5;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 700px;
+		}
+		}
+
+
+@media (max-width: 600px) {
+	.container {
+		width: 600px;
+		}
+		}
+
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+}
+
+@media (max-width: 300px) {
+  .container {
+    width: 200px;
+  }
+}
+
+}
+@media (max-width: 200px) {
+  .container {
+    width: 100px;
+  }
+}
+
+.img-circle {
+	border-radius: 50%
+	}
+
+.card-white {
+  background-color: #F7B2AD;
+  padding: 40px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  margin: 30px 100px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline i {
+font-size: 20px;
+	}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+	}
+
+/* Design adjustments using id (1% left of your design)*/
+#introduction p {
+	margin-bottom: 40px;
